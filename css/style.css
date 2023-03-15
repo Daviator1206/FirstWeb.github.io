@@ -85,7 +85,7 @@ html{
 #home::before {
     content: "";
     position: absolute;
-    background: url(../img/background/pexels-eduardo-krajan-15476365.jpg) no-repeat no-repeat center/cover;
+    background: url(../img/background/wyxina-tresse-gp2WYerVu2c-unsplash.jpg) no-repeat no-repeat center/cover;
     height: 70%;
     width: 100%;
     z-index: -1;
@@ -228,7 +228,9 @@ footer{
     border-radius: 10px;
     cursor: pointer;
 }
-
+.btn:hover{
+    box-shadow: 0 0 20px brown;
+}
 
 .center {
     text-align: center;
