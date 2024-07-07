@@ -1,0 +1,16 @@
+{
+  "name": "hackersearth",
+  "version": "1.0.0",
+  "description": "This is first commit \r <br>\r Author - krishnacodes.in",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
