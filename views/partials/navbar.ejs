@@ -7,7 +7,12 @@
         <li class="item"><a href="#services-container">Service</a></li>
         <li class="item"><a href="#client-section">Our Clients</a></li>
         <li class="item"><a href="#contact">Contact Us</a></li>
-        <li class="item"><a href="/user/signin">Sign In</a></li>
-        <li class="item"><a href="/user/signup">Sign Up</a></li>
+        <% if (!locals.name) { %>
+            <li class="item"><a href="/signin">Sign In</a></li>
+            <li class="item"><a href="/signup">Sign Up</a></li>
+        <% }else{ %>
+            <li class="item"><a href="#"><%= name %></a></li>
+            <li class="item"><a href="/user/logout">LogOut</a></li>
+        <% } %>
     </ul>
 </nav>
